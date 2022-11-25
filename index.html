@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>	
+
+.Titlediv{
+  position: relative;
+  background-color: lightgrey;
+  border:2px solid lightgray;
+  text-align: right;  
+}
+.Titlespan{
+  position: relative;
+  margin: 0px;
+  border:2px solid black;
+  background-color: red;
+  color:white;
+  padding: 3px;
+  
+  
+  
+  
+}
+
+.chicken1,.Beef2,.sushi3 {
+  background-color: lightgrey;
+  box-sizing: border-box;
+  width: 31%;
+  border: 5px solid black;
+  padding: 1px;
+  margin: 1%;
+  display:inline-block;
+}
+
+@media (768px <= width <= 991px){
+  .chicken1{
+    width:47%;
+  }
+  .Beef2{
+    width: 47%;
+  }
+  .sushi3{
+    width:96%;
+  }
+  
+}
+@media (1px <= width <= 767px){
+  .chicken1,.Beef2,.sushi3{
+    width:90%;
+  }
+}
+</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+ 
+</head>
+
+<body>
+  <div class="wrappediv">
+    <div class="chicken1">
+      <div class="Titlediv"><span class="Titlespan">Chicken</span></div>Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Suspendisse malesuada metus
+      elementum
+      ipsum placerat volutpat. Proin non augue mi. Proin dapibus imperdiet leo in fermentum. Pellentesque et erat
+      congue, rutrum lorem eget, rutrum lorem. Quisque ac diam nulla. Phasellus cursus ut nibh quis commodo!
+    </div>
+    <div class="Beef2">
+      <div class="Titlediv"><span class="Titlespan">Beef</span></div>Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Suspendisse malesuada metus elementum
+      ipsum placerat volutpat. Proin non augue mi. Proin dapibus imperdiet leo in fermentum. Pellentesque et erat
+      congue, rutrum lorem eget, rutrum lorem. Quisque ac diam nulla. Phasellus cursus ut nibh quis commodo!
+    </div>
+    <div class="sushi3">
+      <div class="Titlediv"><span class="Titlespan">Sushi</span></div>Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Suspendisse malesuada metus elementum
+      ipsum placerat volutpat. Proin non augue mi. Proin dapibus imperdiet leo in fermentum. Pellentesque et erat
+      congue, rutrum lorem eget, rutrum lorem. Quisque ac diam nulla. Phasellus cursus ut nibh quis commodo!
+    </div>
+  </div>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
